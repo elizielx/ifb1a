@@ -1,113 +1,120 @@
-import Image from 'next/image'
+/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <header className="mb-24">
+        <div
+          className="w-full bg-center bg-cover bg-opacity-50 "
+          style={{
+            backgroundAttachment: "fixed",
+            backgroundImage:
+              "url('https://pmb.universitasmulia.ac.id/wp-content/uploads/2021/09/gedung.jpg')",
+          }}
+        >
+          <div className="flex items-center pb-24 justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
+            <div className="text-center">
+              <div className="container px-4 mx-auto">
+                <div className="max-w-4xl mx-auto text-center mt-28">
+                  <span className="text-gray-200 font-semibold uppercase tracking-widest">
+                    Universitas Mulia
+                  </span>
+                  <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-extrabold tracking-tight leading-none  text-gray-100">
+                    IFB1A
+                  </h2>
+                  <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
+                    Mempersembahkan kelas IFB1A, dari program studi Informatika
+                    di Universitas Mulia. Ini website yang dibuat untuk
+                    memperlihatkan informasi tentang kelas IFB1A.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+      </header>
+      <section className="bg-white dark:bg-slate-950" data-aos="fade-left">
+        <div className="grid max-w-screen-xl px-4 pt-8 pb-10 mx-auto lg:gap-8 xl:gap-0 lg:pt-16 lg:pb-20 lg:grid-cols-12">
+          <div className="mr-auto place-self-center lg:col-span-7">
+            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+              Ketua Kelas
+            </h1>
+            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+              Ketua kelas yang bertanggung jawab atas kelas IFB1A, seorang
+              pribadi yang berdedikasi dan berkomitmen untuk memajukan kelas
+              IFB1A, dan juga seorang yang berjiwa pemimpin yang baik.
+            </p>
+          </div>
+          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <Image
+              src="https://media.discordapp.net/attachments/1133031696560816161/1167339478931734588/20231025_084753.jpg?ex=654dc49b&is=653b4f9b&hm=59572b28395c48c916a82bb5f8714e6e5125fa6d72f489cf6d1413494a4626dd&=&width=500&height=457"
+              width={500}
+              height={350}
+              alt="mockup"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="bg-white dark:bg-gray-900" data-aos="fade-up">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+          <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              Anggota Kelas
+            </h2>
+            <p className="font-light text-gray-500 sm:text-xl dark:text-gray-500">
+              Anggota kelas IFB1A yang berdedikasi dan berkomitmen untuk maju
+              bersama kelas IFB1A untuk menjadi kelas yang terbaik.
+            </p>
+          </div>
+          <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="text-center text-gray-500 dark:text-gray-400">
+              <img
+                className="mx-auto mb-4 w-36 h-36 rounded-full"
+                src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
+                alt="Bonnie Avatar"
+              />
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <a href="#">Orang 1</a>
+              </h3>
+              <p>Ketua Kelas</p>
+            </div>
+            <div className="text-center text-gray-500 dark:text-gray-400">
+              <img
+                className="mx-auto mb-4 w-36 h-36 rounded-full"
+                src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
+                alt="Helene Avatar"
+              />
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <a href="#">Orang 2</a>
+              </h3>
+              <p>Programmer Handal</p>
+            </div>
+            <div className="text-center text-gray-500 dark:text-gray-400">
+              <img
+                className="mx-auto mb-4 w-36 h-36 rounded-full"
+                src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
+                alt="Jese Avatar"
+              />
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <a href="#">Orang 3</a>
+              </h3>
+              <p>Anggota Kelas</p>
+            </div>
+            <div className="text-center text-gray-500 dark:text-gray-400">
+              <img
+                className="mx-auto mb-4 w-36 h-36 rounded-full"
+                src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
+                alt="Jese Avatar"
+              />
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <a href="#">Orang 4</a>
+              </h3>
+              <p>Matematikawan Handal</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
