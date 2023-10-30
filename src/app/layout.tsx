@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { GeistSans, GeistMono } from "geist/font";
 
 import "./globals.css";
 import AOSWrapper from "./aos";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Universitas Mulia IFB1A",
@@ -18,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${GeistSans.variable} ${GeistMono.variable}`}>
         <AOSWrapper>{children}</AOSWrapper>
       </body>
     </html>
