@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { GeistSans, GeistMono } from "geist/font";
 
 import "./globals.css";
-import AOSWrapper from "./aos";
 
 export const metadata: Metadata = {
   title: "Universitas Mulia IFB1A",
-  description: "Universitas Mulia",
+  description:
+    "Kelas Informatika A (IFB1A) adalah kelas angkatan 2023 yang berada di jurusan Informatika Fakultas Teknik Komputer di Universitas Mulia.",
 };
 
 export default function RootLayout({
@@ -16,8 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${GeistSans.variable} ${GeistMono.variable}`}>
-        <AOSWrapper>{children}</AOSWrapper>
+      <body className={`${GeistSans.variable} ${GeistMono.variable} dark`}>
+        {children}
       </body>
     </html>
   );
