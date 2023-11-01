@@ -8,16 +8,32 @@ const anggota = [
     nama: "Yehezkiel Dio Sinolungan",
     foto: "/anggota_kelas/Yehezkiel_Dio.jpg",
     deskripsi: "Programmer Handal.",
+    isSpan: false,
   },
   {
     nama: "Dimas Prayudha",
     foto: "/anggota_kelas/image.png",
     deskripsi: "Wei Shen.",
+    isSpan: false,
   },
   {
-    nama: "Muhammad Dzaki",
+    nama: "Muhammad Dzaki Darussalam",
     foto: "/anggota_kelas/Dzaki.jpg",
     deskripsi: "Ketua Kelas.",
+    isSpan: false,
+  },
+  {
+    nama: "Rafih Sanjaya",
+    foto: "/anggota_kelas/RafihSanjaya.jpg",
+    deskripsi:
+      "Seorang pelajar yang terobsesi dengan robot berupa Gundam dan selalu bersama ketua kelas",
+    isSpan: true,
+  },
+  {
+    nama: "Said Samman A.H",
+    foto: "/anggota_kelas/Said.jpg",
+    deskripsi: "Pendukung Palestina 🇵🇸",
+    isSpan: false,
   },
 ];
 
@@ -47,6 +63,7 @@ const AnggotaKelas: React.FC<AnggotaKelasProps> = () => {
               nama={anggota.nama}
               foto={anggota.foto}
               deskripsi={anggota.deskripsi}
+              isSpan={anggota.isSpan}
               key={anggota.nama}
             />
           ))}
