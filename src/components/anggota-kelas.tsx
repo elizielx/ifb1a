@@ -34,6 +34,12 @@ const anggota = [
     deskripsi: "Terobsesi dengan Gundam dan selalu bersama ketua kelas.",
     isSpan: true,
   },
+  {
+    nama: "Muhammad Asmaul Adam",
+    foto: "/anggota_kelas/Adam.jpg",
+    deskripsi: "Pengambar Handal.",
+    isSpan: false,
+  },
 ];
 
 interface AnggotaKelasProps {}
