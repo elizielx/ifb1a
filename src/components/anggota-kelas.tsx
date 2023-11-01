@@ -31,8 +31,7 @@ const anggota = [
   {
     nama: "Rafih Sanjaya",
     foto: "/anggota_kelas/RafihSanjaya.jpg",
-    deskripsi:
-      "Seorang pelajar yang terobsesi dengan robot berupa Gundam dan selalu bersama ketua kelas.",
+    deskripsi: "Terobsesi dengan Gundam dan selalu bersama ketua kelas.",
     isSpan: true,
   },
 ];
