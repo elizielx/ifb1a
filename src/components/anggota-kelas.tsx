@@ -25,7 +25,7 @@ interface AnggotaKelasProps {}
 
 const AnggotaKelas: React.FC<AnggotaKelasProps> = () => {
   return (
-    <div className="font-sans inset-0 bg-gradient-to-r from-slate-950 via-black to-slate-950">
+    <div className="py-14 font-sans inset-0 bg-gradient-to-r from-slate-950 via-black to-slate-950">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div
           data-aos="fade-in"
@@ -51,6 +51,12 @@ const AnggotaKelas: React.FC<AnggotaKelasProps> = () => {
             />
           ))}
         </div>
+        <p
+          data-aos="fade-in"
+          className="text-center font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-300"
+        >
+          Tidak ada nama mu? Silahkan hubungi dio untuk menambahkan nama mu.
+        </p>
       </div>
     </div>
   );

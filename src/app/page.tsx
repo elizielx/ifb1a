@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import KetuaKelas from "@/components/ketua-kelas";
 import Header from "@/components/header";
 import AnggotaKelas from "@/components/anggota-kelas";
+import Footer from "@/components/footer";
 
 export default function Home() {
   useEffect(() => {
@@ -19,6 +20,7 @@ export default function Home() {
       <KetuaKelas />
       <div className="py-14 relative inset-0 bg-black border-b-2 border-b-slate-700"></div>
       <AnggotaKelas />
+      <Footer />
     </>
   );
 }
