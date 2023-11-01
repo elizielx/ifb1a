@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
 
 interface KetuaKelasProps {}
 
@@ -10,10 +9,6 @@ const imageSources = [
 ];
 
 const KetuaKelas: React.FC<KetuaKelasProps> = () => {
-  const [emblaRef] = useEmblaCarousel({
-    loop: true,
-  });
-
   return (
     <div className="inset-0 text-white font-sans bg-black">
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
