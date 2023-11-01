@@ -23,7 +23,7 @@ const AnggotaKelasCard: React.FC<AnggotaKelasCardProps> = ({
       <a href="#">
         <Image
           src={foto}
-          className="w-full lg:w-40 object-fill h-52 rounded-lg sm:rounded-none sm:rounded-l-lg"
+          className="lg:max-w-[10rem] w-full lg:w-40 object-fill h-52 rounded-lg sm:rounded-none sm:rounded-l-lg"
           width={0}
           height={0}
           sizes="100vw"
