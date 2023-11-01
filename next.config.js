@@ -14,7 +14,17 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "cdn.discordapp.com",
+        port: "",
+      },
+      {
+        protocol: "https",
         hostname: "cdn.pixabay.com",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "media.istockphoto.com",
         port: "",
       },
     ],
