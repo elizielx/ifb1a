@@ -14,7 +14,6 @@ const AnggotaKelasCard: React.FC<AnggotaKelasCardProps> = ({
   deskripsi,
   isSpan,
 }) => {
-  console.log(`${nama} - ${isSpan}`);
   return (
     <div
       className={`${

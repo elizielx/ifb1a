@@ -12,8 +12,14 @@ const anggota = [
   },
   {
     nama: "Dimas Prayudha",
-    foto: "/anggota_kelas/image.png",
+    foto: "/anggota_kelas/Dimas_WeiShen.png",
     deskripsi: "Wei Shen.",
+    isSpan: false,
+  },
+  {
+    nama: "Said Samman A.H",
+    foto: "/anggota_kelas/Said.jpg",
+    deskripsi: "Pendukung Palestina. 🇵🇸",
     isSpan: false,
   },
   {
@@ -26,14 +32,8 @@ const anggota = [
     nama: "Rafih Sanjaya",
     foto: "/anggota_kelas/RafihSanjaya.jpg",
     deskripsi:
-      "Seorang pelajar yang terobsesi dengan robot berupa Gundam dan selalu bersama ketua kelas",
+      "Seorang pelajar yang terobsesi dengan robot berupa Gundam dan selalu bersama ketua kelas.",
     isSpan: true,
-  },
-  {
-    nama: "Said Samman A.H",
-    foto: "/anggota_kelas/Said.jpg",
-    deskripsi: "Pendukung Palestina 🇵🇸",
-    isSpan: false,
   },
 ];
 
