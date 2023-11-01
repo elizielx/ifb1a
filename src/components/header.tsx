@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = () => {
             className="font-bold text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-slate-200 via-slate-300 to-purple-300 inline-block text-transparent bg-clip-text"
           >
             Informatika A
-            <span className="ml-4 bg-white rounded-xl bg-current p-2 text-[0.4em] leading-none align-middle">
+            <span className="ml-4 bg-gray-300 rounded-xl bg-current p-2 text-[0.4em] leading-none align-middle">
               <span className="text-white dark:text-black">IFB1A</span>
             </span>
           </h1>

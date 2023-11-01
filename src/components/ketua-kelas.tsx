@@ -3,11 +3,6 @@ import Image from "next/image";
 
 interface KetuaKelasProps {}
 
-const imageSources = [
-  "/Untitled.jpg",
-  "https://cdn.discordapp.com/attachments/1133031696560816161/1167339478931734588/20231025_084753.jpg?ex=654dc49b&is=653b4f9b&hm=59572b28395c48c916a82bb5f8714e6e5125fa6d72f489cf6d1413494a4626dd&",
-];
-
 const KetuaKelas: React.FC<KetuaKelasProps> = () => {
   return (
     <div className="inset-0 text-white font-sans bg-black">

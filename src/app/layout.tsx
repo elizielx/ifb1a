@@ -4,7 +4,7 @@ import { GeistSans, GeistMono } from "geist/font";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Universitas Mulia IFB1A",
+  title: "Universitas Mulia Kelas IFB1A",
   description:
     "Kelas Informatika A (IFB1A) adalah kelas angkatan 2023 yang berada di jurusan Informatika Fakultas Teknik Komputer di Universitas Mulia.",
 };
