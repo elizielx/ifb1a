@@ -32,7 +32,7 @@ const anggota = [
     nama: "Rafih Sanjaya",
     foto: "/anggota_kelas/RafihSanjaya.jpg",
     deskripsi: "Terobsesi dengan Gundam.",
-    isSpan: true,
+    isSpan: false,
   },
   {
     nama: "Muhammad Asmaul Adam",
