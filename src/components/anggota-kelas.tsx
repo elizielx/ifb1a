@@ -40,6 +40,12 @@ const anggota = [
     deskripsi: "Pengambar Handal.",
     isSpan: false,
   },
+  {
+    nama: "Muhammad Fadhil Rahmadana",
+    foto: "/anggota_kelas/Fadhil.jpg",
+    deskripsi: "Suka Badminton.",
+    isSpan: false,
+  },
 ];
 
 interface AnggotaKelasProps {}
