@@ -17,12 +17,6 @@ const anggota = [
     isSpan: false,
   },
   {
-    nama: "Said Samman A.H",
-    foto: "/anggota_kelas/Said.jpg",
-    deskripsi: "Pendukung Palestina. 🇵🇸",
-    isSpan: false,
-  },
-  {
     nama: "Muhammad Dzaki Darussalam",
     foto: "/anggota_kelas/Dzaki.jpg",
     deskripsi: "Ketua Kelas.",
